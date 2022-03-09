@@ -1,0 +1,702 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Light.ttf");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Italic.ttf");
+  font-weight: italic;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Orbitron";
+  src: url("/fonts/Orbitron-Regular.ttf");
+}
+@font-face {
+  font-family: "Orbitron";
+  src: url("/fonts/Orbitron-Bold.ttf");
+  font-weight: bold;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  /* background-color: white; */
+  /* background-image: url("/assets/background.jpg"); */
+  background:no-repeat center center fixed linear-gradient(
+    to bottom,
+    rgba(0,0,0, .5),
+    rgba(0,0,0, .6)
+  ),url("/assets/background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.Layout_navbar__3AH7- {
+  width: 100%;
+  padding: 0 10px !important;
+}
+
+.logo_row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  margin-bottom: 75px;
+  padding-top: 10px;
+}
+.countdown{
+  color: #FFFFFF;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  text-align: center;
+  letter-spacing: 0px;
+  font: normal normal 300 1.1rem/1.25rem Montserrat !important;
+  color: #FFFFFF;
+  padding-bottom: 5px;
+}
+.logo_row h3 {
+    
+  text-align: center;
+  letter-spacing: 1px;
+  font: normal normal 600 1.5rem/1.75rem Montserrat !important;
+  color: #FFFFFF;
+  padding-bottom: 5px;
+}
+.max-width-container {
+  width: 100%;
+  max-width: 1400px !important;
+  margin: 0 auto;
+  
+}
+.logo {
+  margin: auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  padding-top: 20px;
+}
+.logo_slogan {
+  width: 100%;
+  text-align: center;
+  font: normal normal 800 1.5rem/2.25rem Montserrat;
+  letter-spacing: 0px;
+  color: #1a3165;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  padding-bottom: 25px;
+  
+}
+.intro .flex-row-custom {
+  flex-direction: column;
+  z-index: 9;
+  text-align: center;
+  font-weight: 400;
+  color: #FFFFFF;
+  
+}
+.intro .flex-row-custom a {
+  margin: 5px auto 20px;
+  }
+
+.flex-row-custom {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.filter-blue {
+    filter: invert(16%) sepia(99%) saturate(4586%) hue-rotate(225deg) brightness(102%) contrast(98%);
+  }
+.filter-white {
+    filter: brightness(0) invert(1);
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+  }
+  .progress {
+    background-color: #091722;
+    -webkit-box-shadow: white;
+    box-shadow: white;
+    position: relative;
+    text-align: center;
+  }
+  .progresstitle2 {
+    color: #FFFFFF;
+    vertical-align: middle;
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    left: 0;
+    bottom: 10%;
+  
+  }
+  .progresstitle1 {
+    color: #FFFFFF;
+    vertical-align: middle;
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    left: 0;
+    top: 10%;
+  
+  }
+#vs-progress,
+#voting,
+#faq
+  {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+#vs-progress .flex-row-custom {
+    padding: 50px 0 0;
+    width: 50%;
+    /* font-family: "Orbitron"; */
+    vertical-align: top;
+    text-align: center;
+    letter-spacing: 1px;
+    /* color: #1a3165; */
+    padding-top: 20px;
+    flex-basis: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+#vs-progress .flex-row-custom .right {
+
+    flex-basis: auto;
+    width: 50%;
+    padding: 0 20px;
+    transform: rotate(180deg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+#vs-progress .flex-row-custom .left
+  {
+    flex-basis: auto;
+    width: 50%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  #vs-progress .flex-row-custom .bottom{
+    padding: 50px 0 0;
+    width: 100%;
+    /* font-family: "Orbitron"; */
+    vertical-align: top;
+    letter-spacing: 1px;
+    /* color: #1a3165; */
+    color: #FFFFFF;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+#voting .flex-row-custom {
+  
+  flex-basis: auto;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+    
+  }
+#voting .flex-row-custom .OR {
+
+    flex-basis: auto;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+#voting .flex-row-custom .OR img {
+
+    flex-basis: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+#voting .flex-row-custom .OR .right {
+
+    flex-basis: auto;
+    display: flex;
+    background-color: white;
+    transform: rotate(180deg);
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #voting .flex-row-custom .OR .right .vid
+  {
+    flex-basis: auto;
+    width: 95%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(180deg);
+  }
+#voting .flex-row-custom .OR .right img{
+
+    flex-basis: auto;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+#voting .flex-row-custom .OR .vote
+  {
+    flex-basis: auto;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+#voting .flex-row-custom .OL {
+
+    flex-basis: auto;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+#voting .flex-row-custom .OL .left
+  {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    background-color: white;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #voting .flex-row-custom .OL .left .vid
+  {
+    flex-basis: auto;
+    width: 95%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #voting .flex-row-custom .OL .left img
+  {
+    flex-basis: auto;
+    width: 95%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  #voting .flex-row-custom .OL .vote
+  {
+    flex-basis: auto;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  #voting .flex-row-custom .center
+  {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 5%;
+    
+  }
+  #voting .flex-row-custom .center img
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+  }
+  #voting .flex-row-custom .OL .connect {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+  }
+
+  #voting .flex-row-custom .OR .connect {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      width: 100%;
+    }
+    #voting .flex-row-custom .OR .connect .mintwrap,
+    #voting .flex-row-custom .OL .connect .mintwrap {
+
+      width: 55%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      vertical-align: middle;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      background-color: white;
+    }
+    #voting .flex-row-custom .OL .connect .spinwrap {
+
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+  }
+  #voting .flex-row-custom .OL .connect .spinwrap .spinner {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  #voting .flex-row-custom .OL .connect .spinwrap .under{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    background-color: white;
+  }
+  #voting .flex-row-custom .OR .connect .spinwrap {
+
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #voting .flex-row-custom .OR .connect .spinwrap .spinner{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  #voting .flex-row-custom .OR .connect .spinwrap .under{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+  }
+  .input-group .form-control{
+    width: 20%;
+  }
+  #voting .flex-row-custom .OR .connect .spinwrap .spinner .btn,
+  #voting .flex-row-custom .OL .connect .spinwrap .spinner .btn {
+    color: #7289FF;
+    background-color: #fff;
+    display: inline-block;
+    -webkit-align-self: center;
+    align-self: center;
+    font-weight: 800;
+    color: #7289FF;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    width: 20%;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+#voting .flex-row-custom .OR .connect .spinwrap .spinner .btn:hover,
+#voting .flex-row-custom .OL .connect .spinwrap .spinner .btn:hover {
+  opacity: 0.75;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+  .btn-dark {
+    color: #7289FF;
+    background-color:#fff;
+
+}
+.btn-dark:disabled {
+  color: #fff;
+  background-color: #7289FF;
+}
+
+#voting .flex-row-custom .OL .connect .mintwrap .btn,
+#voting .flex-row-custom .OR .connect .mintwrap .btn {
+
+  font: normal normal 300 1rem/1.25rem Montserrat !important;
+  letter-spacing: 1px;
+  line-height: 300%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  border-radius: 5;
+  --color-1: #557ff2;
+  --color-2: #9446a9;
+  background:
+    linear-gradient(
+    155deg,
+    var(--color-1),
+    var(--color-2) 80%
+     )
+ 
+}
+
+#voting .flex-row-custom .OL .connect .mintwrap .btn:hover,
+#voting .flex-row-custom .OR .connect .mintwrap .btn:hover{
+  opacity: 0.75;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  }
+
+
+  #faq .flex-row-custom {
+    width: 50%;
+    display:block;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  #faq .flex-row-custom h3 {
+    
+    text-align: center;
+    letter-spacing: 1px;
+    font: normal normal 800 2rem/2.5rem Montserrat !important;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+  }
+  #faq .flex-row-custom h4 {
+    
+    text-align: center;
+    letter-spacing: 1px;
+    font: normal normal 600 1.5rem/1.75rem Montserrat !important;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+  #faq .flex-row-custom h5 {
+    
+    text-align: center;
+    letter-spacing: 0px;
+    font: normal normal 300 1rem/1.5rem Montserrat !important;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+  }
+
+  #footer .flex-row-custom {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+  }
+  #footer .flex-row-custom img{
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+    box-sizing:border-box
+  }
+  #footer .logo {
+    width: 100%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+  }
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo_slogan {
+    font-size: 1rem;
+  }
+  .logo_row {
+    margin: 1rem;
+  }
+
+  .intro .flex-row-custom {
+    padding: 10px;
+    
+    
+  }
+
+  .flex-row-custom {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #voting .flex-row-custom {
+  
+    flex-basis: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+    }
+    #voting .flex-row-custom .OL {
+
+      flex-basis: auto;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #voting .flex-row-custom .OR {
+
+      flex-basis: auto;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  #vs-progress .flex-row-custom .left,
+  #vs-progress .flex-row-custom .right{
+    width: 100%;
+  }
+  #footer .flex-row-custom {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  #vs-progress .flex-row-custom {
+    width: 90%;
+    /* font-family: "Orbitron"; */
+    letter-spacing: 1px;
+    /* color: #1a3165; */
+    flex-basis: auto;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  #faq .flex-row-custom h3 {
+    
+    text-align: center;
+    letter-spacing: 1px;
+    font: normal normal 800 2rem/2.5rem Montserrat !important;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+  }
+  #faq .flex-row-custom h4 {
+    
+    text-align: center;
+    letter-spacing: 1px;
+    font: normal normal 600 1.5rem/1.75rem Montserrat !important;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+  #faq .flex-row-custom h5 {
+    
+    text-align: center;
+    letter-spacing: 0px;
+    font: normal normal 300 1rem/1.5rem Montserrat !important;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+  }
+}

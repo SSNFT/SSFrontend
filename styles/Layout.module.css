@@ -1,0 +1,62 @@
+.background {
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /* top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px; */
+  /* height: 100vh;
+  width: 100vw; */
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: inherit;
+  flex-wrap: wrap;
+}
+
+.flexCol {
+  flex: 1 0 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 0 !important;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 1.15rem 1.5rem;
+}
+
+.navbar {
+  /* background: black !important; */
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.gridImageContainer {
+  align-items: center;
+  /* justify-content: center; */
+  margin: 0;
+  margin: 0 -0.25rem;
+}
+
+.gridImage {
+  min-width: 150px;
+  max-width: 256px;
+  padding: 0.25rem;
+  /* padding: 0; */
+  /* margin: 0.25rem; */
+}

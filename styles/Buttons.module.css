@@ -1,0 +1,100 @@
+.metamask {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  
+  width: 25%;
+  height: 25%
+  /* height: 50px; */
+}
+
+.metamask:hover {
+  background-color: #e6e6e6;
+}
+
+.navbarIcon {
+  margin: 0.5rem;
+  cursor: pointer;
+  fill: #3b5ba7;
+}
+
+.navbarIcon:hover {
+  opacity: 0.75;
+}
+
+.mint {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  background: transparent linear-gradient(255deg, #3b5ba7 0%, #1a3165 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 7px 8px #00000029;
+  border: 1px solid #1a3165;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  max-width: 275px;
+}
+/* .mint {
+  background: transparent linear-gradient(255deg, #ADADAD 0%, #6A6A6A 100%) 0%
+    0% no-repeat padding-box;
+    border: 1px solid #6A6A6A;
+    position: relative;
+    cursor: not-allowed;
+    font-weight: 800;
+} */
+.days_remaining {
+  position: absolute;
+  bottom: -30px;
+  right: -15px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 12.5px 17.5px;
+  border-radius: 25px;
+  z-index: 9;
+  box-shadow: 0px 7px 8px #00000029;
+}
+.days_remaining span {
+  color: red;
+}
+.mint img {
+  margin-right: 10px;
+}
+.mint:hover {
+  opacity: 0.95;
+  color: white;
+}
+
+.what {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  height: 80px;
+  box-shadow: 0px 7px 8px #00000029;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  background: transparent;
+  font: normal normal 800 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.what:hover {
+  border: 5px solid #ffffff;
+  color: white;
+}
+.btn {
+  color: #D9DCFD;
+  background-color: #fff;
+  width: 30%
+}
