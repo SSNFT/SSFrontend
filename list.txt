@@ -1,0 +1,49 @@
+-favicon icon?
+0551FD for blue
+
+
+
+      <div id="row5">
+        <div className="flex-row-custom max-width-container">
+          <div className="top">
+            <h4>GET YOUR TOKENMON!</h4>
+          </div>
+          <div className="center">
+            <div className="left">Price:</div>
+            <div className="right">
+              0.069ETH{" "}
+              <img src="/assets/eth.png" width="24,81px" height="41,57px" />
+            </div>
+          </div>
+          <div className="bottom">
+            <a
+              href="https://opensea.io/collection/tokenmonnft"
+              className={buttons.mint}           
+              style={{ zIndex: "1" }}
+              target = "_blank"
+            >
+              <img src="/assets/Ethercap.png" width="33px" height="43px" />
+              <div>SOLD OUT- View On Opensea</div>
+            </a>
+          </div>
+          <img
+            src="/assets/background.jpg"
+            style={{
+              zIndex: "-1",
+              position: "absolute",
+              top: "0",
+              left: "50%",
+              transform: "translateX(-50%)",
+              minWidth: "1000px",
+            }}
+          />
+        </div>
+      </div>
+
+
+  top logo padding 
+  change progress to montserrat
+  add opensea text link
+  winner branch 
+  top and bottom white border for images
+
